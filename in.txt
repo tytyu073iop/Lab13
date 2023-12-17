@@ -1,0 +1,6 @@
+Ivanov I.I.;12345;Mathematics:1,Physics:2,Chemistry:3
+Petrov P.P.;67890;Mathematics:4,Physics:5,Chemistry:6
+Sidorov S.S.;11121;Mathematics:7,Physics:8,Chemistry:9
+Kuznetsov K.K.;14151;Mathematics:10,Physics:10,Chemistry:10
+Ivanov I.I.;12346;Mathematics:1,Physics:2
+Pidorov K.K.;14152;Mathematics:10,Physics:10,Chemistry:10
