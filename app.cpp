@@ -87,7 +87,7 @@ int main() {
         }
     }
     struct ByPoint {
-            bool operator()(const SStudDataM& lhs, const SStudDataM& rhs) {
+            bool operator()(const SStudDataM& lhs, const SStudDataM& rhs) const {
                 return lhs.MidMark > rhs.MidMark;
             }
         };
@@ -96,6 +96,7 @@ int main() {
         float l = 0;
         float r = 0;
         std::cin >> l >> r;
+        if (!std::cin) { std::cout << "Wrong data!\n"; return 3; }
         std::multiset<SStudDataM, ByPoint> s(vm.begin(), vm.end());
         auto rbegin = std::lower_bound(s.rbegin(), s.rend(), l, [](const SStudDataM& i, float j){ return i.MidMark < j; });
         auto rend = std::upper_bound(s.rbegin(), s.rend(), r, [](float j, const SStudDataM& i){ return j < i.MidMark; });
