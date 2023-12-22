@@ -372,3 +372,6 @@ FodyWeavers.xsd
 
 #lldb
 *a.out*
+/Lab13.sln
+/Lab13.vcxproj
+/Lab13.vcxproj.filters
